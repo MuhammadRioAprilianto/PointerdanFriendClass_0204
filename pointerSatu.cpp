@@ -10,3 +10,8 @@ class Mahasiswa
         cout << "no induk" << nim << endl;
     }
 };
+
+int main()
+{
+    Mahasiswa mhs;
+}
