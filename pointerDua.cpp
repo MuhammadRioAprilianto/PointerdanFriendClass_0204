@@ -13,5 +13,6 @@ class Mahasiswa
 
 int main()
 {
+    Mahasiswa *mhs = new Mahasiswa{1};
     
 }
