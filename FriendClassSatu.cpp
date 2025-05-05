@@ -12,3 +12,13 @@ class out_of_range
     void setNama(string pNama);
     Friend Class siswa;
 };
+
+class siswa
+{
+    private:
+    int id;
+
+    public:
+    void setId(int pId);
+    void displayAll(orang &a);
+};
