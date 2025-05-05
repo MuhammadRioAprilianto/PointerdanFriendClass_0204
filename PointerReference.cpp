@@ -32,4 +32,6 @@ int main()
     pds->nama = "Reza";
     cout << "Alamat Memorinya = " << pds << endl;
     pds->tampilNama();
+
+    int a = 5;
 }
