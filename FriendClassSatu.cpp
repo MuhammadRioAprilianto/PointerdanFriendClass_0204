@@ -3,8 +3,7 @@
 using namespace std;
 
 class siswa;
-class orang;
-{
+class orang{
     private:
     string nama;
 
@@ -29,4 +28,8 @@ void orang::setNama(string pNama)
 void siswa::setId(int pId)
 {
     id = pId;
+}
+void siswa::displayAll(orang &a)
+{
+    cout << id << endl << a.nama;
 }
