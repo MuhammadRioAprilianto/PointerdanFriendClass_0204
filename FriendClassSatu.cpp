@@ -3,7 +3,7 @@
 using namespace std;
 
 class siswa;
-class out_of_range
+class orang;
 {
     private:
     string nama;
@@ -25,4 +25,8 @@ class siswa
 void orang::setNama(string pNama)
 {
     nama = pNama;
+}
+void siswa::setId(int pId)
+{
+    id = pId;
 }
