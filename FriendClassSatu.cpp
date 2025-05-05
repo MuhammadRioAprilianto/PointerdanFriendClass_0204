@@ -10,5 +10,5 @@ class out_of_range
 
     public:
     void setNama(string pNama);
-    
+    Friend Class siswa;
 };
