@@ -14,4 +14,6 @@ class Mahasiswa
 int main()
 {
     Mahasiswa mhs;
+    mhs.nim;
+    mhs.showNim();
 }

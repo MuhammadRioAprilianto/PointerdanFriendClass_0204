@@ -36,4 +36,10 @@ int main()
     int a = 5;
     int b = 3;
     int *c = &a;
+    *c = 9;
+    cout << endl;
+    cout << a << endl;
+
+    cout << "alamat memori a = " << &a << endl;
+    cout << "alamat memori c = " << c << endl;
 }
