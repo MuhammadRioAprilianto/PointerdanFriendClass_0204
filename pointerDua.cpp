@@ -14,5 +14,8 @@ class Mahasiswa
 int main()
 {
     Mahasiswa *mhs = new Mahasiswa{1};
-    
+    mhs->nim = 2;
+    mhs->showNim();
+    delete mhs;
+    return 0;
 }
